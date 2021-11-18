@@ -50,7 +50,8 @@ describe('Game', () => {
       expect(game.board[0][0]).toBe('X')
     })
   })
-
+  
+  /*
   describe('nextPlayer', () => {
     it('Sets the current player to be whoever it is not', async () => {
       Math.random = () => 0.4
@@ -60,7 +61,7 @@ describe('Game', () => {
       expect(game.player).toBe('Nate')
     })
   })
-
+*/
   describe('hasWinner', () => {
     it('Wins if any row is filled', async () => {
       for (let r = 0; r < game.board.length; r++) {
