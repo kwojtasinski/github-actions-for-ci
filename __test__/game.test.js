@@ -50,7 +50,6 @@ describe('Game', () => {
       expect(game.board[0][0]).toBe('X')
     })
   })
-  
   /*
   describe('nextPlayer', () => {
     it('Sets the current player to be whoever it is not', async () => {
